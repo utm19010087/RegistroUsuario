@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(rgb(126, 108, 181), rgba(73, 52, 73, 0.453));
+}
+
+.contenedor
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 10%;
+}
+
+.right-column
+{
+    margin-top: 4%;
+    border-radius: 25px;
+    min-height: 600px;
+    min-width: 500px !important;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-usuario
+{
+    margin: 10%;
+}
+
+#registro-btn
+{
+    width: 140px;
+}
+
+.contenedor-boton
+{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-elm
+{
+    margin-inline: 2%;
+    margin-bottom: 5%;
+}
+
+input
+{
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    border-style:groove;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inpu-des
+{
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+    border-style:groove;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label
+{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+legend
+{
+    margin-top: 5%;
+    margin-bottom: 12%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor"> <!-- div contenedor -->
+
+        <div class="left-column"> <!-- columna izquierda -->
+            <img src="images/AM_Transp_Logo_400x400.png" alt=""> <!-- etiqueta imagen -->
+        </div> <!-- cierre columna izquierda -->
+
+        <div class="right-column"> <!-- columna derecha -->
+
+            <div class="formulario-usuario"> <!-- contenedor formulario -->
+
+                <form action=""> <!-- formulario -->
+
+                    <div style="display: flex; justify-content: space-between;"> <!-- contenedor de leyenda e imagen -->
+                        <!-- leyenda -->
+                        <legend> <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Sign in</h2></legend>
+                        <!-- imagen -->
+                        <img width="170px" height="50" src="https://quefarmacia.com/wp-content/uploads/2020/02/Logo-Star-Meidica.jpg" alt="">
+                    </div>
+
+                    <!-- contenedores de input y labels -->
+                    <div class="group-elm">
+                        <label for="mail">Correro electronico</label>
+                        <input type="email" id="mail">
+                    </div>
+
+                    <div class="group-elm">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre">
+                    </div>
+    
+                    <div class="group-elm">
+                        <label for="nacimiento">Fecha de nacimiento</label>
+                        <input class="input-des" type="date" id="nacimiento">
+                    </div>
+                    
+                    <div class="group-elm">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" id="contraseña|">
+                    </div>
+
+                    <div class="group-elm">
+                        <label for="confirmacion-contraseña">Confirmar contraseña</label>
+                        <input type="password" id="confirmacion-contraseña">
+                    </div>
+                    <!-- contenedor boton -->
+                    <div class="contenedor-boton">
+                        <input id="registro-btn" type="button" value="Registrar">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
